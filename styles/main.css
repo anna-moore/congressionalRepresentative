@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* styling of the entire page */
+body{
+    background-color: cornflowerblue;
+    color: white;
+}
+.bio_test{
+    align-items: center;
+}
+/* borders for all containers */
+.bio{
+    border: 1px solid white;
+    /* display: flex; */
+    /* flex: wrap; */
+    align-content: center;
+    margin: 0.5em;
+    padding: 0.5em; 
+}
+.committees{
+    border: 1px solid white;
+    padding: 0.5em;
+    margin: 0.5em;
+    /* text-align: center; */
+}
+
+.legislation{
+    border: 1px solid white;
+    padding: 0.5em;
+    margin: 0.5em;
+    /* text-align: center; */
+}
+/* Centering the headers  */
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
