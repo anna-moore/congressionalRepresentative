@@ -6,6 +6,9 @@ header{
 body{
     background-color: cornflowerblue;
     color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
 }
 .bio_test{
     align-items: center;
@@ -23,6 +26,7 @@ body{
     border: 1px solid white;
     padding: 0.5em;
     margin: 0.5em;
+    width: 50%;
     /* text-align: center; */
 }
 
@@ -30,7 +34,14 @@ body{
     border: 1px solid white;
     padding: 0.5em;
     margin: 0.5em;
+    width: 50%;
     /* text-align: center; */
+}
+
+.comm_legis{
+    display: flex;
+    flex: column;
+
 }
 /* Centering the headers  */
 h2{
@@ -41,3 +52,20 @@ h1{
     text-align: center;
     font-size: 30px;
 }
+
+img {
+    min-width: 15em;
+    margin: 2em;
+}
+
+.a{
+    background-color: white;
+    /* border: navy dotted 2px; */
+    display: flex;
+    margin-top: 0em;  
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
